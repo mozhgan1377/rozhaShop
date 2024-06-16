@@ -15,11 +15,11 @@ menuItems.forEach(item => {
 })
 
 // timer
-let dayElem = document.querySelector(".day") ;
-let houreElem = document.querySelector(".houre") ;
-let minuteElem = document.querySelector(".minute") ;
-let secondElem = document.querySelector(".second") ;
-let countDownTime = new Date("Feb 30 2024").getTime() ;
+let dayElems = document.querySelectorAll(".day") ;
+let houreElems = document.querySelectorAll(".houre") ;
+let minuteElems = document.querySelectorAll(".minute") ;
+let secondElems = document.querySelectorAll(".second") ;
+let countDownTime = new Date("sep 30 2024").getTime() ;
 
 
 let countDownTimer = setInterval(function(){
@@ -54,29 +54,37 @@ let countDownTimer = setInterval(function(){
         seconds = "0" + seconds
     }
 
-    dayElem.innerHTML = days ;
-    houreElem.innerHTML = hours ;
-    minuteElem.innerHTML = minutes ;
-    secondElem.innerHTML = seconds ;
+    dayElems.forEach( elem => elem.innerHTML = days)
+    houreElems.forEach( elem => elem.innerHTML = hours)
+    minuteElems.forEach( elem => elem.innerHTML = minutes)
+    secondElems.forEach( elem => elem.innerHTML = seconds)
 }, 1000);
 
 // slider
 
-let sliderImg = [
-"./pictures/1703914331_hZJTz3.gif",
-"./pictures/s2.jpg",
-"./pictures/s3.jpg"
+let large_sliderImg = [
+ "./pictures/slider-1.jpg" ,
+ "./pictures/slider-2.jpg" , 
+ "./pictures/slider-3.jpg"
+]
+let medium_sliderImg = [
+ "./pictures/slider-1-mob.jpg" ,
+ "./pictures/slider-2-mob.jpg" , 
+ "./pictures/slider-3-mob.jpg"
 ]
 
 let i = 0 ;
 setInterval(function(){
-   let sliderElem = document.querySelector(".lg_slider") ;
+   let large_sliderElem = document.querySelector(".lg_slider") ;
+   let medium_sliderElem = document.querySelector(".med_slider") ;
    let dots = document.querySelectorAll(".dot");
     
-   if( i > sliderImg.length - 1){
+   if( i > 2 ){
     i = 0
    }
-   sliderElem.src = sliderImg[i] ;
+
+   large_sliderElem.src = large_sliderImg[i] ;
+   medium_sliderElem.src = medium_sliderImg[i] ;
    document.querySelector(".dot--active").classList.remove("dot--active")
    dots[i].classList.add("dot--active")
    i++ ;
@@ -104,6 +112,3 @@ nextProducBtns.forEach(btn => {
         let product = document.getElementById(id) ;
     })
 })
-
-
-

@@ -1,0 +1,1629 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rozha Shop</title>
+    <link rel="icon" href="./pictures/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/Yekan-Font-master/Yekan.css">
+    <script src="./js.js" defer></script>
+</head>
+<body>
+  <!-- header -->
+   <header class="header">
+    <!-- header sticky banner -->
+     <div class="top_sticky_banner">
+        <a href="#" class="sticky_banner_link">
+            <img class="sticky_banner_image med_sticky_banner" src="./pictures/kk.gif">
+            <img class="sticky_banner_image lg_sticky_banner" src="./pictures/1703915042_EgcxGk.gif">
+        </a>
+     </div>
+     <!-- main header -->
+     <div class="container">
+       <div class="main_header">
+        <!-- header top section -->
+        <div class="header_top_section flex justify_sb align_center">
+          <div class="header_top_right_section flex justify_center align_center">
+            <div class="header_logo .flex .justify_center .align_center">
+              <a class="header_logo_link flex justify_center align_center" href="#">
+                <img src="./pictures/logo.png">
+              </a>
+            </div>
+            <form action="" class="header_search_form flex align_center">
+              <button type="button" class="header_search_btn">
+                <i class="fa fa-search"></i>
+              </button>
+              <input class="header_search_input" type="text" name="s" placeholder="جستجوی نام محصول و دسته بندی و ...">
+            </form>
+          </div>
+          <div class="header_top_left_section flex justify_center align_center flex_wr">
+            <a href="#" class="login-register_link flex justify_center align_center br_radius_7">
+              ورود / عضویت
+            </a>
+            <div class="vertical_line"></div>
+            <a href="#" class="cart_link flex justify_center align_center br_radius_7" type="button">
+              <i class="fa fa-shopping-basket"></i>
+            </a>
+          </div>
+        </div>
+        <!-- header bottom section -->
+        <div class="header_bottom_section flex justify_sb align_center">
+          <!-- bottom right section (naviagathion menu) -->
+          <ul class="header_navbar flex align_center justify_center flex_wr">
+            <li class="navbar_item category_item">
+              <a href="#" class="navbar_link flex justify_center align_center category_link">
+                دسته بندی محصولات
+                <i class="fa fa-angle-down"></i>
+              </a>
+              <div class="drop_down_menu">
+                <ul class="drop_down_items">
+                  <li class="drop_down_item active" data-id="perfium">
+                     <a class="drop_down_link" href="#">
+                       <i class="fa fa-spray-can-sparkles"></i>
+                       <span class="drop_down_category">
+                          عطر
+                       </span>
+                     </a>
+                  </li>
+                  <li class="drop_down_item" data-id="face-protect">
+                     <a class="drop_down_link" href="#">
+                       <i class="fa fa-pump-soap"></i>
+                       <span class="drop_down_category">
+                          بهداشتی
+                       </span>
+                     </a>
+                  </li>
+                  <li class="drop_down_item" data-id="face-beauty">
+                     <a class="drop_down_link" href="#">
+                       <i class="fa fa-car"></i>
+                       <span class="drop_down_category">
+                          آرایشی
+                       </span>
+                     </a>
+                  </li>
+                  <li class="drop_down_item" data-id="hair">
+                     <a class="drop_down_link" href="#">
+                        <i class="fa fa-mortar-pestle fs-5"></i>
+                       <span class="drop_down_category">
+                          مو
+                       </span>
+                     </a>
+                  </li>
+                  <li class="drop_down_item" data-id="electric">
+                     <a class="drop_down_link" href="#">
+                       <i class="fa fa-plug"></i>
+                       <span class="drop_down_category">
+                          لوازم برقی
+                       </span>
+                     </a>
+                  </li>
+                </ul>
+                <ul class="submenu-items show" id="perfium">
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     عطر و ادکلن
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     عطر و ادکلن مردانه
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     عطر و ادکلن زنانه
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     عطر و ادکلن زنانه و مردانه
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     عطر و ادکلن بچه گانه
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                       گیف ست عطر
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                   <a href="#" class="submenu_link">
+                      خوش بو کننده بدن
+                   </a>
+                 </li>
+                 <li class="submenu_item">
+                   <a href="#" class="submenu_link">
+                     بادی اسپلش
+                   </a>
+                 </li>
+                </ul>
+                <ul class="submenu-items" id="face-protect">
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     مراقبت ار پوست
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                      کرم روز
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     کرم شب
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     کرم دورچشم
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     لایه بردار
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                       ضد چروک
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                   <a href="#" class="submenu_link">
+                      ضد آفتاب
+                   </a>
+                 </li>
+                 <li class="submenu_item">
+                   <a href="#" class="submenu_link">
+                    آبرسان
+                   </a>
+                 </li>
+                </ul>
+                <ul class="submenu-items" id="face-beauty">
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     آرایش صورت
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     کانسیلر صورت
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     پودر صورت
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     پودر فیکس
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     کانتور
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                       رژگونه
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                   <a href="#" class="submenu_link">
+                      خط چشم
+                   </a>
+                 </li>
+                 <li class="submenu_item">
+                   <a href="#" class="submenu_link">
+                     ریمل چشم
+                   </a>
+                 </li>
+                </ul>
+                <ul class="submenu-items" id="hair">
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     مراقبت از مو
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     شامپوی مو
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     نرم کننده مو
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     ماسک مو
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     اسپری مو
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                       سرم مو
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                   <a href="#" class="submenu_link">
+                      حالت دهنده مو
+                   </a>
+                 </li>
+                 <li class="submenu_item">
+                   <a href="#" class="submenu_link">
+                     ژل مو
+                   </a>
+                 </li>
+                </ul>
+                <ul class="submenu-items" id="electric">
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     سشوار
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     اپیلاتور
+                    </a>
+                  </li>
+                  <li class="submenu_item">
+                    <a href="#" class="submenu_link">
+                     بندانداز برقی
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="navbar_item">
+              <a href="#" class="navbar_link flex align_baseline justify_center brands_link">
+                <i class="fa-regular fa-regular fa-star"></i>
+                برندها
+              </a>
+            </li>
+            <li class="navbar_item">
+              <a href="#" class="navbar_link flex align_baseline justify_center">
+                <i class="fa fa-gift"></i>
+                کارت هدیه روژا
+              </a>
+            </li>
+            <li class="navbar_item">
+              <a href="#" class="navbar_link flex align_baseline justify_center">
+                <i class="fa-regular fa-regular fa-comments"></i>
+                مشاوره رایگان
+              </a>
+            </li>
+            <li class="navbar_item">
+              <a href="#" class="navbar_link flex align_baseline justify_center">
+                <i class="fa-regular fa-regular fa-building"></i>
+                فروش سازمانی
+              </a>
+            </li>
+            <li class="navbar_item">
+              <a href="#" class="navbar_link flex align_baseline justify_center">
+                <i class="fa fa-blog"></i>
+                وبلاگ روزا
+              </a>
+            </li>
+            <li class="navbar_item ">
+              <a href="#" class="navbar_link flex align_baseline justify_center">
+                فروش ویژه روژا
+              </a>
+            </li>
+          </ul>
+          <!-- bottom left section (uses & branches) -->
+          <ul class="menu flex align_center justify_end flex_wr">
+            <li class="navbar_item">
+              <a href="#" class="navbar_link">
+                <i class="fa fa-users  color_red"></i>
+                باشگاه مشتریان
+              </a>
+            </li>
+            <li class="navbar_item branch">
+              <a href="#" class="navbar_link">
+                <i class="fa fa-location-dot color_red"></i>
+                شعب موژا
+              </a>
+            </li>
+          </ul>
+        </div>  
+       </div>
+     </div>
+   </header>
+   <!-- mobile header -->
+   <div class="mobile_header">
+    <div class="container">
+     <div class="mobile_header_top_section flex align_center justify_sb">
+       <div class="mobile_header_navigation">
+         <i class="fa fa-bars"></i>
+       </div>
+       <div class="mobile_header_logo flex align_center justify_center">
+         <a href="#">
+           <img src="./pictures/logo.png" alt="">
+         </a>
+       </div>
+       <div class="mobile_header_top_left_section flex align_center justify_end">
+           <a href="#" class="mobile_header_register flex align_center justify_center">
+             <i class="fa-regular fa-user"></i>
+           </a>
+           <a href="#" class="mobile_header_cart flex align_center justify_center">
+             <i class="fa fa-shopping-basket"></i>
+           </a>
+       </div>
+     </div>
+     <div class="mobile_header_bottom_section">
+       <form action="" class="mobile_search_form">
+         <input class="mobile_search_input" type="text" placeholder="جستجوی نام محصول دسته بندی و ...">
+       </form>
+     </div>
+    </div>
+   </div> 
+   <!-- main -->
+   <main class="main">
+    <!-- story section -->
+    <div class="story_section">
+      <div class="container">
+        <div class="story_items flex justify_sb">
+          <div class="story_item">
+            <a class="story_link flex flex_dir_col justify_center align_center" href="#">
+              <span class="story_img">
+                <img src="./pictures/str1.png" alt="">
+              </span>
+              <span class="story_caption">هدیه روز زن</span>
+            </a>
+          </div>
+          <div class="story_item">
+            <a class="story_link flex flex_dir_col justify_center align_center" href="#">
+              <span class="story_img">
+                <img src="./pictures/str22.jpg" alt="">
+              </span>
+              <span class="story_caption">باشگاه مشتریان</span>
+            </a>
+          </div>
+          <div class="story_item">
+            <a class="story_link flex flex_dir_col justify_center align_center" href="#">
+              <span class="story_img">
+                <img src="./pictures/str3.jpg" alt="">
+              </span>
+              <span class="story_caption">کارت هدیه</span>
+            </a>
+          </div>
+          <div class="story_item">
+            <a class="story_link flex flex_dir_col justify_center align_center" href="#">
+              <span class="story_img">
+                <img src="./pictures/str4.jpg" alt="">
+              </span>
+              <span class="story_caption">تخفیف‌ ویژه</span>
+            </a>
+          </div>
+          <div class="story_item">
+            <a class="story_link flex flex_dir_col justify_center align_center" href="#">
+              <span class="story_img">
+                <img src="./pictures/str5.jpg" alt="">
+              </span>
+              <span class="story_caption">ارسال رایگان</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- slider -->
+    <div class="slider flex">
+        <a href="#">
+          <img class="slider_img lg_slider" src="" alt="">
+          <img class="slider_img med_slider" src="" alt="">
+        </a>
+        <div class="dots">
+          <span class="dot dot--active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+    </div>
+    <!-- offer gategory -->
+    <section class="offer_gategorise">
+       <div class="container">
+         <div class="offer_category_wrapper">
+          <div class="offer_gategory">
+            <a href="#" class="offer_gategory_link">
+              <img class="offer_gategory_img" src="./pictures/1.jpg" alt="">
+            </a>
+          </div>
+          <div class="offer_gategory">
+            <a href="#" class="offer_gategory_link">
+              <img class="offer_gategory_img" src="./pictures/2.jpg" alt="">
+            </a>
+          </div>
+          <div class="offer_gategory">
+            <a href="#" class="offer_gategory_link">
+              <img class="offer_gategory_img" src="./pictures/3.jpg" alt="">
+            </a>
+          </div>
+          <div class="offer_gategory">
+            <a href="#" class="offer_gategory_link">
+              <img class="offer_gategory_img" src="./pictures/4.jpg" alt="">
+            </a>
+          </div>
+         </div>
+       </div>
+    </section>
+    <!-- amazing offers -->
+    <section class="amazing_offer">
+      <div class="container">
+        <div class="amazing_offer_wrapper">
+          <div class="med_section_title  color_g500">
+            <strong>جدیدترین ها در روژا</strong>
+          </div>
+          <div class="amazing_offer_flex flex">
+            <div class="right_section">
+              <strong>پیشنهاد روژایی</strong>
+              <a href="#" class="right_section_btn">
+                مشاهده همه
+              </a>
+            </div>
+            <div class="left_section flex align_center">
+              <div class="products" id="amazingOffer">
+                <div class="product_box">
+                  <a href="#" class="flex flex_dir_col">
+                    <div class="product_head flex justify_center">
+                      <img src="./pictures/p1.jpg" alt="">
+                      <span class="sale_percentage flex align_center justify_center">30 %</span> 
+                      <span class="free-express flex align_center justify_center">ارسال رایگان</span> 
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center">
+                      <div class="product_title flex justify_center">
+                        <h3>ماسک و اسکراب زغال و شکر سیاه وارمی</h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_sale_price flex align_center justify_center">
+                          248.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                        <span class="product_finall_price flex align_center justify_center">
+                          198.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                      <div class="product_counter flex justify_center align_center">
+                        <div class="day date">2</div>
+                        <div class="houre date">08</div>
+                        <div class="colons">:</div>
+                        <div class="minute date">43</div>
+                        <div class="colons">:</div>
+                        <div class="second date">59</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product_box">
+                  <a href="#" class="flex flex_dir_col">
+                    <div class="product_head flex justify_center">
+                      <img src="./pictures/p2.jpg" alt="">
+                      <span class="sale_percentage flex align_center justify_center">30 %</span> 
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center">
+                      <div class="product_title flex justify_center">
+                        <h3>کرم ضد چروک و سفت کننده پوست صورت پرودرما</h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_sale_price flex align_center justify_center">
+                          221.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                        <span class="product_finall_price flex align_center justify_center">
+                          136.600
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                      <div class="product_counter flex justify_center align_center">
+                        <div class="day date">2</div>
+                        <div class="houre date">08</div>
+                        <div class="colons">:</div>
+                        <div class="minute date">43</div>
+                        <div class="colons">:</div>
+                        <div class="second date">59</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product_box">
+                  <a href="#" class="flex flex_dir_col">
+                    <div class="product_head flex justify_center">
+                      <img src="./pictures/p3.jpg" alt="">
+                      <span class="sale_percentage flex align_center justify_center">28 %</span> 
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center">
+                      <div class="product_title flex justify_center">
+                        <h3>ماست بدن گلاب مناسب انواع پوست دیپ سنس</h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_sale_price flex align_center justify_center">
+                          109.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                        <span class="product_finall_price flex align_center justify_center">
+                          87.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                      <div class="product_counter flex justify_center align_center">
+                        <div class="day date">2</div>
+                        <div class="houre date">08</div>
+                        <div class="colons">:</div>
+                        <div class="minute date">43</div>
+                        <div class="colons">:</div>
+                        <div class="second date">59</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product_box">
+                  <a href="#" class="flex flex_dir_col">
+                    <div class="product_head flex justify_center">
+                      <img src="./pictures/p4.jpg" alt="">
+                      <span class="sale_percentage flex align_center justify_center">40 %</span> 
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center">
+                      <div class="product_title flex justify_center">
+                        <h3>فوم شستشوی پوست حساس سنسی ویت ویتالیر</h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_sale_price flex align_center justify_center">
+                          197.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                        <span class="product_finall_price flex align_center justify_center">
+                          118.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                      <div class="product_counter flex justify_center align_center">
+                        <div class="day date">2</div>
+                        <div class="houre date">08</div>
+                        <div class="colons">:</div>
+                        <div class="minute date">43</div>
+                        <div class="colons">:</div>
+                        <div class="second date">59</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product_box">
+                  <a href="#" class="flex flex_dir_col">
+                    <div class="product_head flex justify_center">
+                      <img src="./pictures/p5.jpg" alt="">
+                      <span class="sale_percentage flex align_center justify_center">38 %</span> 
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center">
+                      <div class="product_title flex justify_center">
+                        <h3>شامپو مخصوص موهای چرب پورتیس ژاک آندرل</h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_sale_price flex align_center justify_center">
+                          275.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                        <span class="product_finall_price flex align_center justify_center">
+                          197.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                      <div class="product_counter flex justify_center align_center">
+                        <div class="day date">2</div>
+                        <div class="houre date">08</div>
+                        <div class="colons">:</div>
+                        <div class="minute date">43</div>
+                        <div class="colons">:</div>
+                        <div class="second date">59</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product_box">
+                  <a href="#" class="flex flex_dir_col">
+                    <div class="product_head flex justify_center">
+                      <img src="./pictures/aqua-detox-ultra-hydrating-serum.jpg" alt="">
+                      <span class="sale_percentage flex align_center justify_center">28 %</span> 
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center">
+                      <div class="product_title flex justify_center">
+                        <h3>ماست بدن گلاب مناسب انواع پوست دیپ سنس</h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_sale_price flex align_center justify_center">
+                          109.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                        <span class="product_finall_price flex align_center justify_center">
+                          87.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                      <div class="product_counter flex justify_center align_center">
+                        <div class="day date">2</div>
+                        <div class="houre date">08</div>
+                        <div class="colons">:</div>
+                        <div class="minute date">43</div>
+                        <div class="colons">:</div>
+                        <div class="second date">59</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="left-section_sidebar">
+                <button class="prev_product_button" data-id="amazingOffer">
+                  <i class="fa fa-angle-left"></i>
+                </button>
+                <button class="next_product_button" data-id="amazingOffer">
+                  <i class="fa fa-angle-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="med_more_btn">
+            <button class="">مشاهده همه</button>
+          </div> 
+        </div>
+      </div>
+    </section>
+    <!-- banners section -->
+    <section class="banners_row">
+      <div class="container">
+        <div class="banners_holder flex justify_center align_center">
+         <div class="banner">
+          <a href="#">
+            <img src="./pictures/ban1.jpg" alt="" class="banner_img lg_banner">
+            <img src="./pictures/1703914933_oVMgv2.jpg" alt="" class="banner_img med_banner">
+          </a>
+         </div>
+         <div class="banner">
+          <a href="#">
+            <img src="./pictures/ban2.jpg" alt="" class="banner_img lg_banner">
+            <img src="./pictures/1703914942_3KLmCp.jpg" alt="" class="banner_img med_banner">
+          </a>
+         </div>
+        </div>
+      </div>
+    </section>
+    <!-- latest products -->
+    <section class="latest_products">
+      <div class="container">
+        <div class="latest_products_wrapper">
+          <div class="med_section_title  color_g500">
+            <strong>جدیدترین ها در روژا</strong>
+          </div>
+          <div class="latest_products_flex flex">
+            <div class="right_section color_g500">
+              <strong class="color_g500">جدیدترین ها در روژا</strong>
+              <a href="#" class="right_section_btn btn2">
+                مشاهده همه
+              </a>
+            </div>
+            <div class="left_section flex align_center">
+              <div class="products" id="latestProducts">
+                <div class="product_box">
+                  <a href="#" class="product_link flex flex_dir_col">
+                    <div class="product_head flex justify_sb flex_dir_col">
+                      <img src="./pictures/1702883241_zcranG.jpg" alt="">
+                      <div class="product_colors flex justify_center align_center">
+                        <div class="product_color_num">در سه رنگ</div>
+                        <div class="fix_color_n1"></div>
+                        <div class="fix_color_n2"></div>
+                        <div class="fix_color_n3"></div>
+                      </div>
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center justify_sb flex_grow">
+                      <div class="product_title flex justify_center">
+                        <h3>
+                          پودر فیکس نوت
+                        </h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_sale_price flex align_center justify_center">
+                          503.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                        <span class="product_finall_price flex align_center justify_center">
+                          457.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product_box">
+                  <a href="#" class="product_link flex flex_dir_col">
+                    <div class="product_head flex justify_sb flex_dir_col">
+                      <img src="./pictures/arginie-b.jpg" alt="">
+                      <span class="free-express flex align_center justify_center top1">ارسال رایگان</span> 
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center justify_sb flex_grow">
+                      <div class="product_title flex justify_center">
+                        <h3>
+                          شامپو تقویت کننده، براق کننده و احیا کننده موی سر فولیکا
+                        </h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_sale_price flex align_center justify_center">
+                          173.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                        <span class="product_finall_price flex align_center justify_center">
+                          75.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product_box">
+                  <a href="#" class="product_link flex flex_dir_col">
+                    <div class="product_head flex justify_sb flex_dir_col">
+                      <img src="./pictures/aqua-detox-ultra-hydrating-serum.jpg" alt="">
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center justify_sb flex_grow">
+                      <div class="product_title flex justify_center">
+                        <h3>
+                          سرم آبرسان پوست 40 میل بایومارین
+                        </h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_finall_price flex align_center justify_center">
+                          241.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product_box">
+                  <a href="#" class="product_link flex flex_dir_col">
+                    <div class="product_head flex justify_sb flex_dir_col">
+                      <img src="./pictures/1685345958_ULANrW.jpg" alt="">
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center justify_sb flex_grow">
+                      <div class="product_title flex justify_center">
+                        <h3>
+                          سرم مو کراتینه آی پلاس
+                        </h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_finall_price flex align_center justify_center">
+                          457.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product_box">
+                  <a href="#" class="product_link flex flex_dir_col">
+                    <div class="product_head flex justify_sb flex_dir_col">
+                      <img src="./pictures/1686748891_bSHNZO.jpg" alt="">
+                      <span class="sale_percentage flex align_center justify_center">27 %</span> 
+                      <span class="free-express flex align_center justify_center">ارسال رایگان</span> 
+                      <div class="product_colors flex justify_center align_center">
+                        <div class="product_color_num">در سه رنگ</div>
+                        <div class="fix_color_n1 bgc_pink"></div>
+                        <div class="fix_color_n2 bgc_purple"></div>
+                        <div class="fix_color_n3 bgc_blue"></div>
+                      </div>
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center justify_sb flex_grow">
+                      <div class="product_title flex justify_center">
+                        <h3>
+                          بادی میست زنانه Love Addict سی گل
+                        </h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_sale_price flex align_center justify_center">
+                          189.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                        <span class="product_finall_price flex align_center justify_center">
+                          125.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product_box">
+                  <a href="#" class="product_link flex flex_dir_col">
+                    <div class="product_head flex justify_sb flex_dir_col">
+                      <img src="./pictures/pp1.jpg" alt="">
+                      <span class="sale_percentage flex align_center justify_center">15 %</span> 
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center justify_sb flex_grow">
+                      <div class="product_title flex justify_center">
+                        <h3>
+                          کرم مرطوب کننده و آبرسان قوی Hydra Active تیوبی ژوت
+                        </h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_sale_price flex align_center justify_center">
+                          503.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                        <span class="product_finall_price flex align_center justify_center">
+                          457.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="left-section_sidebar">
+                <button class="prev_product_button color_g500" data-id="latestProducts">
+                  <i class="fa fa-angle-left"></i>
+                </button>
+                <button class="next_product_button color_g500" data-id="latestProducts">
+                  <i class="fa fa-angle-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="med_more_btn">
+            <button class="">مشاهده همه</button>
+          </div>  
+        </div>
+      </div>
+    </section>
+    <!-- midpage row gallery categories -->
+    <section class="midpage_category_images flex">
+      <div class="container">
+        <div class="category_images flex justify_center align_center">
+          <div class="category_image">
+            <a href="#">
+              <img src="./pictures/cat1.jpg" alt="">
+              <div class="category_content flex justify_sb align_center">
+                <span>مو</span>
+                <button class="category_btn flex justify_center align_center">
+                  مشاهده
+                  <i class="fa fa-arrow-left"></i>
+                </button>
+              </div>
+            </a>
+          </div>
+          <div class="category_image">
+            <a href="#">
+              <img src="./pictures/cat2.jpg" alt="">
+              <div class="category_content flex justify_sb align_center">
+                <span>عطر</span>
+                <button class="category_btn flex justify_center align_center">
+                  مشاهده
+                  <i class="fa fa-arrow-left"></i>
+                </button>
+              </div>
+            </a>
+          </div>
+          <div class="category_image">
+            <a href="#">
+              <img src="./pictures/cat3.jpg" alt="">
+              <div class="category_content flex justify_sb align_center">
+                <span>بهداشتی</span>
+                <button class="category_btn flex justify_center align_center">
+                  مشاهده
+                  <i class="fa fa-arrow-left"></i>
+                </button>
+              </div>
+            </a>
+          </div>
+          <div class="category_image">
+            <a href="#">
+              <img src="./pictures/cat4.jpg" alt="">
+              <div class="category_content flex justify_sb align_center">
+                <span>آرایشی</span>
+                <button class="category_btn flex justify_center align_center">
+                  مشاهده
+                  <i class="fa fa-arrow-left"></i>
+                </button>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- brands home -->
+    <section class="brands_section">
+      <div class="container">
+        <div class="brands_wrapper">
+          <div class="med_section_title  color_g500 hb">
+            <strong>محبوب ترین برندها</strong>
+          </div>
+          <div class="brands_flex flex">
+            <div class="right_section justify_center color_g500">
+              <strong>برندها</strong>
+              <a href="#" class="right_section_btn">
+                مشاهده همه
+              </a>
+            </div>
+            <div class="left_section flex justify_sb align_center">
+            <div class="brands flex justify_sb align_center">
+              <div class="brand">
+                <a href="#" class="brand_link flex justify_center align_center">
+                  <img class="brand_img" src="./pictures/bran1.jpg" alt="">
+                </a>
+                <div class="border_fixer"></div>
+              </div>
+              <div class="brand">
+                <a href="#" class="brand_link flex justify_center align_center">
+                  <img class="brand_img" src="./pictures/bran10.jpg" alt="">
+                </a>
+                <div class="border_fixer"></div>
+              </div>
+              <div class="brand">
+                <a href="#" class="brand_link flex justify_center align_center">
+                  <img class="brand_img" src="./pictures/bran3.jpg" alt="">
+                </a>
+                <div class="border_fixer"></div>
+              </div>
+              <div class="brand">
+                <a href="#" class="brand_link flex justify_center align_center">
+                  <img class="brand_img" src="./pictures/bran4.jpg" alt="">
+                </a>
+                <div class="border_fixer"></div>
+              </div>
+              <div class="brand">
+                <a href="#" class="brand_link flex justify_center align_center">
+                  <img class="brand_img" src="./pictures/bran5.jpg" alt="">
+                </a>
+                <div class="border_fixer"></div>
+              </div>
+              <div class="brand">
+                <a href="#" class="brand_link flex justify_center align_center">
+                  <img class="brand_img" src="./pictures/bran9.jpg" alt="">
+                </a>
+                <div class="border_fixer"></div>
+              </div>
+              <div class="brand">
+                <a href="#" class="brand_link flex justify_center align_center">
+                  <img class="brand_img" src="./pictures/bran7.jpg" alt="">
+                </a>
+                <div class="border_fixer"></div>
+              </div>
+              <div class="brand">
+                <a href="#" class="brand_link flex justify_center align_center">
+                  <img class="brand_img" src="./pictures/bran8.jpg" alt="">
+                </a>
+                <div class="border_fixer"></div>
+              </div>
+              <div class="brand">
+                <a href="#" class="brand_link flex justify_center align_center">
+                  <img class="brand_img" src="./pictures/bran2.jpg" alt="">
+                </a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- best sells -->
+    <section class="best_sells">
+      <div class="container">
+        <div class="best_sells_wrapper">
+          <div class="med_section_title  color_g500">
+            <strong> پرفروش ترین ها</strong>
+          </div>
+          <div class="best_sells_flex flex ">
+            <div class="right_section color_g500">
+              <strong class="color_g500">پرفروش ترین ها در روژا</strong>
+              <a href="#" class="right_section_btn btn2">
+                مشاهده همه
+              </a>
+            </div>
+            <div class="left_section flex">
+              <div class="products" id="bestSells">
+                <div class="product_box">
+                  <a href="#" class="product_link flex flex_dir_col">
+                    <div class="product_head flex justify_sb flex_dir_col">
+                      <img src="./pictures/pp1.jpg" alt="">
+                      <span class="sale_percentage flex align_center justify_center">15 %</span> 
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center justify_sb flex_grow">
+                      <div class="product_title flex justify_center">
+                        <h3>
+                          کرم مرطوب کننده و آبرسان قوی Hydra Active تیوبی ژوت
+                        </h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_sale_price flex align_center justify_center">
+                          503.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                        <span class="product_finall_price flex align_center justify_center">
+                          457.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product_box">
+                  <a href="#" class="product_link flex flex_dir_col">
+                    <div class="product_head flex justify_sb flex_dir_col">
+                      <img src="./pictures/pp2.jpg" alt="">
+                      <span class="sale_percentage flex align_center justify_center">38 %</span> 
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center justify_sb flex_grow">
+                      <div class="product_title flex justify_center">
+                        <h3>
+                          پد دو طرفه پاک کننده آرایش 80 عددی یونی لد
+                        </h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_sale_price flex align_center justify_center">
+                          248.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                        <span class="product_finall_price flex align_center justify_center">
+                          175.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product_box">
+                  <a href="#" class="product_link flex flex_dir_col">
+                    <div class="product_head flex justify_sb flex_dir_col">
+                      <img src="./pictures/pp3.jpg" alt="">
+                      <span class="sale_percentage flex align_center justify_center">تا <br> 40 %</span> 
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center justify_sb flex_grow">
+                      <div class="product_title flex justify_center">
+                        <h3>
+                          بادی اسپلش کاریزما سی گل
+                        </h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_sale_price flex align_center justify_center">
+                          189.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                        <span class="product_finall_price flex align_center justify_center">
+                          121.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product_box">
+                  <a href="#" class="product_link flex flex_dir_col">
+                    <div class="product_head flex justify_sb flex_dir_col">
+                      <img src="./pictures/pp4.jpg" alt="">
+                      <span class="sale_percentage flex align_center justify_center">30 %</span> 
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center justify_sb flex_grow">
+                      <div class="product_title flex justify_center">
+                        <h3>
+                          ضد آفتاب روشن کننده و ضد لک +SPF50 درماتیپیک
+                        </h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_sale_price flex align_center justify_center">
+                          549.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                        <span class="product_finall_price flex align_center justify_center">
+                          457.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product_box">
+                  <a href="#" class="product_link flex flex_dir_col">
+                    <div class="product_head flex justify_sb flex_dir_col">
+                      <img src="./pictures/1686748891_bSHNZO.jpg" alt="">
+                      <span class="sale_percentage flex align_center justify_center">27 %</span>
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center justify_sb flex_grow">
+                      <div class="product_title flex justify_center">
+                        <h3>
+                          بادی میست زنانه Love Addict سی گل
+                        </h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_sale_price flex align_center justify_center">
+                          189.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                        <span class="product_finall_price flex align_center justify_center">
+                          125.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product_box">
+                  <a href="#" class="product_link flex flex_dir_col">
+                    <div class="product_head flex justify_sb flex_dir_col">
+                      <img src="./pictures/prr.jpg" alt="">
+                      <span class="sale_percentage flex align_center justify_center">52 %</span>
+                    </div>
+                    <div class="product_body flex flex_dir_col align_center justify_sb flex_grow">
+                      <div class="product_title flex justify_center">
+                        <h3>
+                          تونر مولتی اکتیو مخصوص پوست های چرب و مختلط 1 لافارر
+                        </h3>
+                      </div>
+                      <div class="product_price flex flex_dir_col ">
+                        <span class="product_sale_price flex align_center justify_center">
+                          151.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                        <span class="product_finall_price flex align_center justify_center">
+                          65.000
+                          <span class="price_unit">تومان</span>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="left-section_sidebar">
+                <button class="prev_product_button color_g500" id="bestSells">
+                  <i class="fa fa-angle-left"></i>
+                </button>
+                <button class="next_product_button color_g500" id="bestSells">
+                  <i class="fa fa-angle-right"></i>
+                </button>
+              </div>
+            </div>
+          </div> 
+          <div class="med_more_btn">
+            <button class="">مشاهده همه</button>
+          </div>  
+        </div>
+      </div>
+    </section>
+    <!-- articles section-->
+    <section class="articles_section">
+      <div class="container">
+        <div class="articles_section_wrapper">
+          <div class="med_section_title">
+            <strong>آخرین مقالات در روژا</strong>
+          </div>
+          <div class="articles_flex flex">
+            <div class="right_section color_g500">
+              <strong class="color_g500">آخرین مقالات موژا</strong>
+              <a href="#" class="right_section_btn">
+                مشاهده همه
+              </a>
+            </div>
+            <div class="left_section flex align_center">
+              <div class="articles flex align_center">
+                <article class="article">
+                  <a class="article_link flex flex_dir_col justify_end" href="#">
+                    <div class="article_img">
+                      <img src="./pictures/art1.jpg" alt="">
+                    </div>
+                    <div class="article_content flex align_center justify_sb">
+                      <h3 class="article_title">معرفی چند راهکار برای انتخاب شامپو موی چرب</h3>
+                      <button class="article_btn flex align_center justify_center">
+                       بخوانید
+                       <i class="fa fa-arrow-left"></i>
+                      </button>
+                    </div>
+                  </a>
+                </article>
+                <article class="article">
+                  <a class="article_link flex flex_dir_col justify_end" href="#">
+                    <div class="article_img">
+                      <img src="./pictures/art4.jpg" alt="">
+                    </div>
+                    <div class="article_content flex align_center justify_sb">
+                      <h3 class="article_title">
+                        نکات مهم برای خرید کرم ضد آفتاب با پوشانندگی بالا‌
+                      </h3>
+                      <button class="article_btn flex align_center justify_center">
+                       بخوانید
+                       <i class="fa fa-arrow-left"></i>
+                      </button>
+                    </div>
+                  </a>
+                </article>
+                <article class="article">
+                  <a class="article_link flex flex_dir_col justify_end" href="#">
+                    <div class="article_img">
+                      <img src="./pictures/art3.jpg" alt="">
+                    </div>
+                    <div class="article_content flex align_center justify_sb">
+                      <h3 class="article_title">
+                        خواص سالیسیلیک اسید برای پوست
+                      </h3>
+                      <button class="article_btn flex align_center justify_center">
+                       بخوانید
+                       <i class="fa fa-arrow-left"></i>
+                      </button>
+                    </div>
+                  </a>
+                </article>
+                <article class="article">
+                  <a class="article_link flex flex_dir_col justify_end" href="#">
+                    <div class="article_img">
+                      <img src="./pictures/art2.jpg" alt="">
+                    </div>
+                    <div class="article_content flex align_center justify_sb">
+                      <h3 class="article_title">
+                        روتین مراقبت از پوست خشک چه مراحلی دارد؟
+                      </h3>
+                      <button class="article_btn flex align_center justify_center">
+                       بخوانید
+                       <i class="fa fa-arrow-left"></i>
+                      </button>
+                    </div>
+                  </a>
+                </article>
+                <article class="article">
+                  <a class="article_link flex flex_dir_col justify_end" href="#">
+                    <div class="article_img">
+                      <img src="./pictures/art5.jpg" alt="">
+                    </div>
+                    <div class="article_content flex align_center justify_sb">
+                      <h3 class="article_title">
+                        معرفی چند راهکار برای انتخاب شامپو موی چرب
+                      </h3>
+                      <button class="article_btn flex align_center justify_center">
+                       بخوانید
+                       <i class="fa fa-arrow-left"></i>
+                      </button>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="left-section_sidebar">
+                <button class="prev_product_button color_g500">
+                 <i class="fa fa-angle-left"></i>
+                </button>
+                <button class="next_product_button color_g500">
+                 <i class="fa fa-angle-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="med_more_btn">
+            <button class="">مشاهده همه</button>
+          </div>  
+        </div>
+      </div>
+    </section> 
+    <!-- videos section -->
+    <section class="video_section">
+      <div class="container">
+        <div class="video_wrapper">
+          <div class="med_section_title">
+            <strong>ویدیو ها در روژا</strong>
+          </div>
+          <div class="video_flex flex align_center">
+            <div class="right_section color_g500">
+              <strong class="color_g500">ویدیو ها در روژا</strong>
+              <a href="#" class="right_section_btn btn2">
+                مشاهده همه
+              </a>
+            </div>
+            <div class="left_section flex align_center ">
+              <div class="videos flex align_center">
+                <div class="video_box">
+                  <a href="#" class="video_link">
+                    <img src="./pictures/vid1.webp" alt="">
+                  </a>
+                  <div class="after flex align_center justify_center">
+                    <i class="fa fa-play-circle"></i>
+                  </div>
+                </div>
+                <div class="video_box">
+                  <a href="#" class="video_link">
+                    <img src="./pictures/vid2.webp" alt="">
+                  </a>
+                  <div class="after flex align_center justify_center">
+                    <i class="fa fa-play-circle"></i>
+                  </div>
+                </div>
+                <div class="video_box">
+                  <a href="#" class="video_link">
+                    <img src="./pictures/vid3.webp" alt="">
+                  </a>
+                  <div class="after flex align_center justify_center">
+                    <i class="fa fa-play-circle"></i>
+                  </div>
+                </div>
+                <div class="video_box">
+                  <a href="#" class="video_link">
+                    <img src="./pictures/vid4.webp" alt="">
+                  </a>
+                  <div class="after flex align_center justify_center">
+                    <i class="fa fa-play-circle"></i>
+                  </div>
+                </div>
+                <div class="video_box">
+                  <a href="#" class="video_link">
+                    <img src="./pictures/vid3.webp" alt="">
+                  </a>
+                  <div class="after flex align_center justify_center">
+                    <i class="fa fa-play-circle"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="left-section_sidebar">
+                <button class="prev_product_button color_g500">
+                  <i class="fa fa-angle-left"></i>
+                </button>
+                <button class="next_product_button color_g500 ">
+                  <i class="fa fa-angle-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="med_more_btn">
+            <button class="">مشاهده همه</button>
+          </div>   
+        </div>
+      </div>
+    </section>
+    <!-- services vigets -->
+    <section class="services_vigets">
+      <div class="container">
+        <div class="services_wrapper">
+          <div class="viget flex ">
+            <a class="viget_icon" href="#">
+              <i class="fa fa-check-circle"></i>
+            </a>
+            <div class="viget_content">
+              <h4 class="viget_title">ضمانت اصالت کالا</h4>
+              <p class="viget_text">ارایه تضمین اصل بودن کالا</p>
+            </div>
+          </div>
+          <div class="viget flex ">
+            <a class="viget_icon flex justify_center align_center" href="#">
+              <i class="fa fa-motorcycle"></i>
+            </a>
+            <div class="viget_content">
+              <h4 class="viget_title">
+                ارسال رایگان بالای ۵۰۰,۰۰۰ تومان
+              </h4>
+              <p class="viget_text">برای سراسر کشور</p>
+            </div>
+          </div>
+          <div class="viget flex ">
+            <a class="viget_icon flex justify_center align_center" href="#">
+              <i class="far fa-money-bill-alt	"></i>
+            </a>
+            <div class="viget_content">
+              <h4 class="viget_title">بازگشت کالا</h4>
+              <p class="viget_text">ضمانت بازگشت کالا تا 7 روز</p>
+            </div>
+          </div>
+          <div class="viget flex ">
+            <a class="viget_icon flex justify_center align_center" href="#">
+              <i class="fas fa-headset"></i>
+            </a>
+            <div class="viget_content">
+              <h4 class="viget_title">مشاوره</h4>
+              <p class="viget_text">مشاوره پوست و زیبایی</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   </main>
+   <!-- footer -->
+   <footer class="footer">
+        <div class="footer_wrapper">
+          <!-- footer top section-->
+          <div class="footer_top_section">
+            <div class="container">
+              <div class="footer_top_section_wrapper flex align_center justify_center">
+                <div class="footer_top_item">
+                  <h4 class="title color_red">تماس با روژا: <bdi class="font-12">021 5782 6000</bdi></h4>
+                  <p class="work_houres font-w6">شنبه تا پنج شنبه از ساعت 9:00 تا 24:00</p>
+                </div>
+                <div class="footer_top_item flex flex_dir_col align_center border-1">
+                    <h4 class="font-16 form_title">از تخفیف‌ها و جدیدترین‌های روژا شاپ باخبر شوید:</h4>
+                    <form action="" class="newletter_form flex justify_sb align_center">
+                      <input class="newsletter_form_input" type="text" name="newletter_phnumber" placeholder="شماره موبایل یا ایمیل خود را وارد نمایید">
+                      <button class="newsletter_form_btn flex justify_center align_center">ارسال</button>
+                    </form>
+                </div>
+                <div class="footer_top_item ">
+                  <h4 class="font-16">روژا در شبکه های اجتماعی</h4>
+                  <div class="footer_icons flex align_center">
+                    <a href="#" class="footer_icon_link">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="footer_icon_link">
+                      <i class="fa-brands fa-telegram"></i>
+                    </a>
+                    <a href="#" class="footer_icon_link">
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="#" class="footer_icon_link">
+                      <img src="./pictures/aparat.svg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- footer bottom section -->
+          <div class="footer_bottom_section">
+            <div class="container">
+              <div class="footer_bottom_section_wrapper flex flex_wr">
+                <div class="footer_bottom_item flex flex_dir_col padding_1 item1">
+                  <div class="footer_logo flex justify_sb">
+                    <img src="./pictures/logo.png" alt="logo">
+                    <button class="footer_call_btn">
+                      تماس با روژا
+                      <i class="fa fa-phone"></i>
+                    </button>
+                  </div>
+                  <h3 class="marg-t1 marg-b1">اطلاعات تماس</h3>
+                  <span class="marg-t2 marg-b2">
+                    <i class="fa fa-home"></i>
+                    <strong>بخش اداری: </strong>
+                    تهران، بلوار ميرداماد، جنب دفينه، بازار بزرگ ميرداماد، ساختمان اداری، ط 4، واحد 412
+                  </span>
+                  <span class="flex marg-t2 marg-b2">
+                    <i class="fa fa-home"></i>
+                    <strong>آدرس فروشگاه : </strong>
+                    <a href="#" class="footer_branch_link">فروشگاه های روژا</a>
+                  </span>
+                  <span class="marg-t2 marg-b2">
+                    <i class="fa fa-envelope"></i>
+                    <strong>پست الکترونیکی :</strong>
+                     online@rojagroup.com
+                  </span>
+                </div>
+                <div class="footer_bottom_item flex_wr padding_3 item2">
+                  <h3>زیبا بمانید</h3>
+                  <div class="all_descriptions">
+                    <p class="footer_description">
+                      مجموعه فروشگاه های روژا با بیش از 25 سال سابقه در ارائه محصولات با کيفيت ، مرغوب و با اصالت از برندهای معتبر جهانی مشغول به فعاليت است. هم اکنون فروشگاه اینترنتی روژا در ادامه اين رسالت و سابقه درخشان، به دنبال ارائه محصولات با کيفيت و اورجينال از برندهای معتبر خارجی و ايرانی در محيط آنلاين است. مشتريان می توانند از ميان هزاران محصول با کيفيت خارجی و داخلی آرایشی، بهداشتی و عطر ، محصول مورد نظر خود را جستجو ، بررسی و انتخاب نمايند. در فروشگاه اینترنتی روژا مشتريان عزیز می توانيد به راحتی، خرید اینترنتی لذت بخش، مطمئن و آسان را تجربه کنند و کالای مورد نظر خود را به سرعت در سراسر ایران دریافت نمایند.
+                    </p>
+                    <p class="footer_extra_description">
+                      فروشگاه اینترنتی روژا مجموعه ای با کیفیت از محصولات آرایشی همچون کرم پودر و پرایمر صورت، کانتور و هایلایت، پنکیک،کانسیلر،رژ گونه،ریمل وخط چشم،سايه چشم ،انواعرژ لب وخط لب،لاک و محصولاتآرایش ناخن از برندهای با کيفيت همچونگرلن،دیور،لانکوم،دبورا،آرت دکو،ایوسن لورن،ام تو بیوتی،کوزارت،رژبزه،ژیوانشی،اين لی،کاپریس،سی گل و صدها برند معتبر ديگر را برای خرید اینترنتی فراهم نموده است. همچنين محصولات مرغوب و با اصالتمراقبت از پوست شامل انواعکرم روز،کرم شب،مرطوب کننده وآبرسان،ضد آفتاب،ضد لک و روشن کننده،ضد چروک،لیفت و سفت کننده،محصولات درمانی جوش،ماسک،کرم دور چشم وکرم های ضد پف و تیرگی دور چشم ومحصولات مراقبت مژه و ابرو،محصولات مراقبت مو شامل مجموعه کاملی از بهترین هایشامپو،ماسک مو،سرم مو از برندهای با کيفيتکدلی،نوکس،فیلورگا،استادرم،نوروا،اوریاژ، ليراک، بایورگا، کامان، سینره و صدها برند معتبر ديگر در فروشگاه اينترنتی روژا موجود می باشد. فروشگاه اینترنتی روژا شامل مجموعه کاملی از انواع عطر و ادکلن های زنانه و ادکلن های مردانه اورجینال از برندهای معتبر کارولينا هررا، زرجوف، ديور، گوچی، مارتين میکالف، جورجيو آرمانی، پاکو رابان، روبرتو کاوالی، آمواج، ژل ا مد، ليلا حاتمی، گرنويل و صدها برند معتبر ديگر می باشد و اين امکان را فراهم نموده است تا مشتريان با آسودگی خاطر از ميان اين مجموعه کامل به صورت آنلاين انتخاب و در کوتاه ترين زمان ممکن درب منزل تحویل بگیرند.
+                    </p>
+                  </div>
+                  <span class="footer_btn_more">
+                    بیشتر بخوانید
+                    <i class="fa fa-angle-down"></i>
+                  </span>
+                </div>
+                <div class="footer_bottom_item padding_3 flex flex_wr marg-t1 marg-b1 item3">
+                  <div class="footer_menus flex ">
+                    <ul class="footer_menu">
+                      <li>
+                        <a href="#">درباره ما
+      
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          تماس با ما
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          فروشگاه های روژا
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          راهنمای خرید و سفارش
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="footer_menu">
+                      <li>
+                        <a href="#">
+                          حریم خصوصی
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          فرصت های شغلی
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          قوانین و مقررات
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                         ارسال هدیه
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          سوالات متداول
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+      
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="footer_licenses">
+                    <a href="#">
+                      <img src="./pictures/logo-ecunion.png" alt="">
+                    </a>
+                    <a href="#">
+                      <img src="./pictures/logo-ecunion.png" alt="">
+                    </a>
+                    <a href="#">
+                      <img src="./pictures/logo-ecunion.png" alt="">
+                    </a>
+                  </div>
+                  <div class="med_footer_section">
+                    <form action="" class="newletter_form flex justify_sb align_center">
+                      <input class="newsletter_form_input" type="text" name="newletter_phnumber" placeholder="شماره موبایل یا ایمیل خود را وارد نمایید">
+                      <button class="newsletter_form_btn flex justify_center align_center">ارسال</button>
+                    </form>
+                    <div class="med_footer_icons flex align_center justify_sb">
+                      <a href="#" class="footer_icon_link">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
+                      <a href="#" class="footer_icon_link">
+                        <i class="fa-brands fa-telegram"></i>
+                      </a>
+                      <a href="#" class="footer_icon_link">
+                        <i class="fa-brands fa-youtube"></i>
+                      </a>
+                      <a href="#" class="footer_icon_link">
+                        <img src="./pictures/aparat.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                 <div class="footer_bottom_item item4 flex justify_sb">
+                  <div class="med_footer_licenses flex justify_sb">
+                    <a href="#">
+                      <img src="./pictures/logo-ecunion.png" alt="">
+                    </a>
+                    <a href="#">
+                      <img src="./pictures/logo-ecunion.png" alt="">
+                    </a>
+                    <a href="#">
+                      <img src="./pictures/logo-ecunion.png" alt="">
+                    </a>
+                  </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <!-- footer copyright section -->
+          <div class="footer_copyright_section">
+            <p>
+              استفاده از مطالب فروشگاه اینترنتی روژا فقط برای مقاصد غیرتجاری و باذکر منبع بلامانع است. کلیه حقوق این سایت متعلق به شرکت آ ریاس روژان می باشد. 
+            </p>
+          </div>
+        </div>
+      
+  </footer>
+</body>
+</html>
+
+<!-- <ul class="submenu">
+  
+</ul> -->
